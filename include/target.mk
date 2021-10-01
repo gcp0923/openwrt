@@ -36,22 +36,24 @@ endif
 # For the basic set
 DEFAULT_PACKAGES.basic:=
 # For nas targets
-DEFAULT_PACKAGES.nas:=\
-	block-mount \
-	fdisk \
-	lsblk \
-	mdadm
+DEFAULT_PACKAGES.nas:= \
+#	block-mount \
+#	fdisk \
+#	lsblk \
+#	mdadm
 # For router targets
 DEFAULT_PACKAGES.router:=\
 	dnsmasq \
 	firewall \
-	ip6tables \
+#	-ip6tables \
 	iptables \
 	kmod-ipt-offload \
-	odhcp6c \
-	odhcpd-ipv6only \
-	ppp \
-	ppp-mod-pppoe
+	-kmod-ip6tables
+#	-odhcp6c \
+#	-odhcpd-ipv6only \
+#	-ppp \
+#	-ppp-mod-pppoe \
+#	-ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
 
 ifneq ($(DUMP),)
   all: dumpinfo
