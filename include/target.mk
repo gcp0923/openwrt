@@ -45,14 +45,14 @@ DEFAULT_PACKAGES.nas:= \
 DEFAULT_PACKAGES.router:=\
 	dnsmasq \
 	firewall \
-#	-ip6tables \
 	iptables \
 	kmod-ipt-offload \
 	-kmod-ip6tables
-#	-odhcp6c \
-#	-odhcpd-ipv6only \
-#	-ppp \
-#	-ppp-mod-pppoe \
+	-ip6tables \
+	-odhcp6c \
+	-odhcpd-ipv6only \
+	-ppp \
+	-ppp-mod-pppoe \
 #	-ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
 
 ifneq ($(DUMP),)
