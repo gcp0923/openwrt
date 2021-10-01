@@ -48,7 +48,13 @@ DEFAULT_PACKAGES.router:=\
 	firewall \
 	iptables \
 	kmod-ipt-offload \
-	-kmod-ip6tables
+	simple-obfs \
+	shadowsocksr-libev \
+	pdnsd-alt \
+	ssocks \
+	trojan \
+	luci-app-ssr-plus \
+	-kmod-ip6tables \
 	-ip6tables \
 	-odhcp6c \
 	-odhcpd-ipv6only \
