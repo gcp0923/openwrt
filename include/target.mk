@@ -35,8 +35,6 @@ endif
 
 # For the basic set
 DEFAULT_PACKAGES.basic:= \
-	uhttpd \
-	luci \
 # For nas targets
 DEFAULT_PACKAGES.nas:= \
 #	block-mount \
@@ -55,6 +53,7 @@ DEFAULT_PACKAGES.router:=\
 	pdnsd-alt \
 	ssocks \
 	trojan \
+	luci-newapi default-settings luci \
 	luci-app-ssr-plus \
 	-kmod-ip6tables \
 	-ip6tables \
