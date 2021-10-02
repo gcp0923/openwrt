@@ -34,7 +34,9 @@ DEFAULT_PACKAGES+=busybox procd
 endif
 
 # For the basic set
-DEFAULT_PACKAGES.basic:=
+DEFAULT_PACKAGES.basic:= \
+	uhttpd \
+	luci \
 # For nas targets
 DEFAULT_PACKAGES.nas:= \
 #	block-mount \
