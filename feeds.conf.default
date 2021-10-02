@@ -1,5 +1,6 @@
-src-git small https://github.com/kenzok8/small
-src-git gpackages https://github.com/gcp70908/packages
+#src-git small https://github.com/kenzok8/small
+#src-git gpackages https://github.com/gcp70908/packages
+
 src-git packages https://git.openwrt.org/feed/packages.git
 src-git luci https://git.openwrt.org/project/luci.git
 src-git routing https://git.openwrt.org/feed/routing.git
