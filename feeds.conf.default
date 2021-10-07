@@ -1,7 +1,7 @@
 #src-git small https://github.com/kenzok8/small
 #src-git gpackages https://github.com/gcp70908/packages
 
-#src-git ssrplus https://github.com/gcp0923/helloworld
+src-git ssrplus https://github.com/gcp0923/helloworld
 src-git luci https://git.openwrt.org/project/luci.git
 src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
