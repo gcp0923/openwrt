@@ -62,6 +62,8 @@ DEFAULT_PACKAGES.router:=\
 	-kmod-nf-conntrack6 -kmod-nf-ipt6 -kmod-nf-reject6 \
 	-ppp \
 	-ppp-mod-pppoe \
+	-libip6tc2 \
+	
 	# -ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
 	# ssocks \
 
