@@ -51,7 +51,6 @@ DEFAULT_PACKAGES.router:=\
 	simple-obfs \
 	shadowsocksr-libev \
 	pdnsd-alt \
-#	ssocks \
 	trojan \
 	luci-newapi default-settings luci \
 	luci-app-ssr-plus \
@@ -61,11 +60,11 @@ DEFAULT_PACKAGES.router:=\
 	-odhcpd-ipv6only \
 	-kmod-ip6tables \
 	-kmod-nf-conntrack6 -kmod-nf-ipt6 -kmod-nf-reject6 \
-	
-
 	-ppp \
 	-ppp-mod-pppoe \
-#	-ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
+	# -ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
+	# ssocks \
+
 
 ifneq ($(DUMP),)
   all: dumpinfo
