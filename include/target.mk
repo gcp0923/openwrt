@@ -63,6 +63,7 @@ DEFAULT_PACKAGES.router:=\
 	-ppp \
 	-ppp-mod-pppoe \
 	-libip6tc2 \
+	-opkg \
 	
 	# -ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
 	# ssocks \
