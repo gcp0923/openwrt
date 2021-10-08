@@ -51,15 +51,18 @@ DEFAULT_PACKAGES.router:=\
 	simple-obfs \
 	shadowsocksr-libev \
 	pdnsd-alt \
-	ssocks \
+#	ssocks \
 	trojan \
 	luci-newapi default-settings luci \
 	luci-app-ssr-plus \
-	-kmod-ip6tables \
 	-ip6tables \
 	-kmod-ipv6 \
 	-odhcp6c \
 	-odhcpd-ipv6only \
+	-kmod-ip6tables \
+	-kmod-nf-conntrack6 -kmod-nf-ipt6 -kmod-nf-reject6 \
+	
+
 	-ppp \
 	-ppp-mod-pppoe \
 #	-ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
