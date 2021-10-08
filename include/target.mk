@@ -57,6 +57,7 @@ DEFAULT_PACKAGES.router:=\
 	luci-app-ssr-plus \
 	-kmod-ip6tables \
 	-ip6tables \
+	-kmod-ipv6 \
 	-odhcp6c \
 	-odhcpd-ipv6only \
 	-ppp \
