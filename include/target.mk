@@ -12,20 +12,21 @@ DEVICE_TYPE?=router
 # Default packages - the really basic set
 DEFAULT_PACKAGES:=\
 	base-files \
-	ca-bundle \
 	dropbear \
 	fstools \
 	libc \
 	libgcc \
-	libustream-wolfssl \
 	logd \
 	mtd \
 	netifd \
-	opkg \
 	uci \
 	uclient-fetch \
 	urandom-seed \
-	urngd
+	urngd \
+	#	libustream-wolfssl \
+	#	opkg \
+	#	ca-bundle \
+
 
 ifneq ($(CONFIG_SELINUX),)
 DEFAULT_PACKAGES+=busybox-selinux procd-selinux
@@ -49,7 +50,6 @@ DEFAULT_PACKAGES.router:=\
 	iptables \
 	kmod-ipt-offload \
 	simple-obfs \
-	shadowsocksr-libev \
 	pdnsd-alt \
 	trojan \
 	luci-newapi default-settings luci \
@@ -64,6 +64,12 @@ DEFAULT_PACKAGES.router:=\
 	-ppp-mod-pppoe \
 	-libip6tc2 \
 	-opkg \
+	-luci-proto-ppp \
+	-luci-proto-ipv6 \
+	-luci-app-opkg \
+	#shadowsocksr-libev \
+	#check ssr-plus in helloworld
+	
 	
 	# -ppp -ppp-mod-pppoe -ip6tables -odhcp6c -kmod-ipv6 -kmod-ip6tables
 	# ssocks \
