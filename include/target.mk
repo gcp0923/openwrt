@@ -55,19 +55,19 @@ DEFAULT_PACKAGES.router:=\
 	trojan \
 	luci-newapi default-settings luci \
 	luci-app-ssr-plus \
-	-ip6tables \
-	-kmod-ipv6 \
-	-odhcp6c \
-	-odhcpd-ipv6only \
-	-kmod-ip6tables \
-	-kmod-nf-conntrack6 -kmod-nf-ipt6 -kmod-nf-reject6 \
-	-ppp \
-	-ppp-mod-pppoe \
-	-libip6tc2 \
-	-opkg \
-	-luci-proto-ppp \
-	-luci-proto-ipv6 \
-	-luci-app-opkg \
+	#-ip6tables \
+	#-kmod-ipv6 \
+	#-odhcp6c \
+	#-odhcpd-ipv6only \
+	#-kmod-ip6tables \
+	#-kmod-nf-conntrack6 -kmod-nf-ipt6 -kmod-nf-reject6 \
+	#-ppp \
+	#-ppp-mod-pppoe \
+	#-libip6tc2 \
+	#-opkg \
+	#-luci-proto-ppp \
+	#-luci-proto-ipv6 \
+	#-luci-app-opkg \
 	#shadowsocksr-libev \
 	#check ssr-plus in helloworld
 	
