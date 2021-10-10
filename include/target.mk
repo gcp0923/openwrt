@@ -51,6 +51,7 @@ DEFAULT_PACKAGES.router:=\
 	kmod-ipt-offload \
 	simple-obfs \
 	pdnsd-alt \
+	shadowsocks-libev \
 	trojan \
 	luci-newapi default-settings luci \
 	luci-app-ssr-plus \
