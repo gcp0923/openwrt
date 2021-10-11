@@ -49,12 +49,12 @@ DEFAULT_PACKAGES.router:=\
 	firewall \
 	iptables \
 	kmod-ipt-offload \
-	simple-obfs \
 	pdnsd-alt \
-	shadowsocks-libev \
-	trojan \
 	luci-newapi default-settings luci \
 	luci-app-ssr-plus \
+	trojan \
+	#shadowsocks-libev \
+	#simple-obfs \
 	#-ip6tables \
 	#-kmod-ipv6 \
 	#-odhcp6c \
