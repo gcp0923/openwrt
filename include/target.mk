@@ -23,6 +23,8 @@ DEFAULT_PACKAGES:=\
 	uclient-fetch \
 	urandom-seed \
 	urngd \
+	opkg \
+	ca-bundle \
 	#	libustream-wolfssl \
 	#	opkg \
 	#	ca-bundle \
